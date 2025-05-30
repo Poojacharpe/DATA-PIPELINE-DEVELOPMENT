@@ -18,9 +18,11 @@ The task began by **extracting** raw data from a .csv file using the pandas libr
 
 To ensure the numeric data was suitable for machine learning algorithms, the script applied **StandardScaler** from scikit-learn, which standardized each numeric feature by removing the mean and scaling to unit variance. This is especially important for models that are sensitive to scale, such as logistic regression or SVMs. Categorical variables, on the other hand, were encoded using OneHotEncoder, which converts categories into binary columns, making them machine-readable.
 
-A notable point was adjusting for scikit-learn’s version changes — in newer versions, the sparse argument was replaced with sparse_output. The script accounted for this, ensuring compatibility across environments. Finally, the cleaned, transformed dataset was loaded back to disk as a new .csv file, ready for further analysis or modeling.
+Finally, the cleaned, transformed dataset was loaded back to disk as a new .csv file, ready for further analysis or modeling.
+
 
 **Tools Used**
+
 Python: Main programming language for the task.
 
 pandas: For data loading, manipulation, and saving.
@@ -29,7 +31,9 @@ scikit-learn: For preprocessing tasks like scaling and encoding.
 
 Jupyter Notebook: The editor platform, allowing interactive development and clear step-by-step execution.
 
+
 **Where It’s Applicable**
+
 This kind of pipeline is highly applicable in real-world settings. For example:
 
 In **business analytics**, it prepares sales or customer data for dashboards and KPI tracking.
