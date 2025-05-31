@@ -42,9 +42,11 @@ In **finance**, it ensures credit or risk data is cleaned before feeding into sc
 
 In **healthcare**, it handles messy patient records for clinical prediction tools.
 
+In **e-commerce**, it transforms customer behavior data for recommendation systems.
+
 
 *OUTPUT*: 
 
 ![Image](https://github.com/user-attachments/assets/a34f990c-947d-456d-b6b6-fa1557941d8f)
-In **e-commerce**, it transforms customer behavior data for recommendation systems.
+
 **
