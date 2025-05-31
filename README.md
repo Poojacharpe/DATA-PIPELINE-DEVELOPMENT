@@ -12,7 +12,7 @@
 
 *MENTOR*: Neela Santosh
 
-**The internship task focused on building an **ETL (Extract, Transform, Load) pipeline** using Python to clean and prepare raw data for analysis. This process was automated through a Python script written in Jupyter Notebook, a popular interactive editor platform used widely in data science for combining code, outputs, and explanations in one place.
+#### The internship task focused on building an **ETL (Extract, Transform, Load) pipeline** using Python to clean and prepare raw data for analysis. This process was automated through a Python script written in Jupyter Notebook, a popular interactive editor platform used widely in data science for combining code, outputs, and explanations in one place.
 
 The task began by **extracting** raw data from a .csv file using the pandas library, which allowed efficient loading into a structured DataFrame. Once loaded, the **transform** phase tackled the common issues seen in raw datasets. Numeric columns often had missing values; these were imputed using the mean to avoid introducing bias or gaps. Categorical columns were filled with a placeholder like 'missing' to keep category mappings intact.
 
